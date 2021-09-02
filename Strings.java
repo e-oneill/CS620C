@@ -20,9 +20,25 @@ public class Strings
         String operator = phnumber.substring(3,5);
         String number = phnumber.substring(5);
 
+        if (operator.charAt(0) == '8')
+        {
+            operator = 0 + operator;
+        }
+        else
+        {
+            operator = operator.substring(1);
+        }
+
         System.out.println(countrycode);
         System.out.println(operator);
         System.out.println(number);
+
+        String firstname = "Mary";
+        String surname = "Reid";
+        String year = "2019";
+
+        String email = firstname + "." + surname + "." + year + "@mumail.ie";
+        System.out.println(email);
 
     }
 }
