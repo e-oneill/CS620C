@@ -14,7 +14,7 @@ public class Strings
         // System.out.println(s1==s2);
         // System.out.println(s1.equals(s2));
 
-        String phnumber = "353831871363";
+        String phnumber = "353872671278";
 
         String countrycode = phnumber.substring(0, 3);
         String operator = phnumber.substring(3,5);
