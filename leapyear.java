@@ -13,7 +13,7 @@ public class leapyear
             }
             
             // Condition 2         
-            if (i % 4 == 0 & i % 100 != 0)
+            if (i % 4 == 0 && i % 100 != 0)
             {
                 System.out.println(i + " is a leap year");
                 continue;
