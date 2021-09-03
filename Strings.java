@@ -1,8 +1,8 @@
 public class Strings
 {
     public static void main(String[] args) {
-        String s1 = "Mule"; 
-        String s2 = "Mule", s3 = s1 + " " + s2;
+        // String s1 = "Mule"; 
+        // String s2 = "Mule", s3 = s1 + " " + s2;
         // int num1 = 10, num2 = 12;
 
         // System.out.println(s1 + s2);
@@ -26,7 +26,7 @@ public class Strings
         }
         else
         {
-            operator = operator.substring(1);
+            operator = operator.substring(1,2);
         }
 
         System.out.println(countrycode);
@@ -36,6 +36,9 @@ public class Strings
         String firstname = "Mary";
         String surname = "Reid";
         String year = "2019";
+
+        
+
 
         String email = firstname + "." + surname + "." + year + "@mumail.ie";
         System.out.println(email);
