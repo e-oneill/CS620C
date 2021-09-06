@@ -1,3 +1,4 @@
+package Week_2;
 import java.util.*;
 // import java.lang.*;
 public class PhoneNumberEntry
@@ -22,6 +23,8 @@ public class PhoneNumberEntry
                 System.exit(0);
             }
             // System.out.println(phnumber);
+
+            sc.close();
 
         }
         //endregion;

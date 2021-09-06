@@ -1,3 +1,4 @@
+package Week_2;
 import java.util.*;
 //import java.util.Scanner; // More specific import for Scanner only
 
