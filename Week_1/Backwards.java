@@ -3,7 +3,7 @@ public class Backwards {
     public static void main(String[] args) {
         String sentence = "pay no attention to that man behind the curtain";
         int leng = sentence.length();
-        int currChar = leng -1;
+        // int currChar = leng -1;
         // int newChar = 0;
         int wordLength = 0;
         String currWord ="";

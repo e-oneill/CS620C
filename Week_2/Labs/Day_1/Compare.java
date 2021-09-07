@@ -3,10 +3,11 @@ import java.util.*;
 
 public class Compare {
     public static void main(String[] args) {
-        //Init
+        //region Init
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please enter two integers, one after the other.");
+        //endregion;
 
         //region Declare Variables that will be needed
         int num1 = 0;

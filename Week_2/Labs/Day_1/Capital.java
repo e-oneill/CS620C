@@ -2,20 +2,22 @@ package Week_2.Labs.Day_1;
 import java.util.*;
 public class Capital {
     public static void main(String[] args) {
-        //Init
+        //region Init
 
         Scanner sc = new Scanner(System.in);
         String str = "";
         char first = ' ';
+        //endregion;
 
-        // Input Handling
+        //region Input Handling
         str = sc.nextLine();
         str = str.toLowerCase();
         sc.close();
         int leng = str.length();
         // int lastWord = 0;
+        //endregion;
 
-        // Operation
+        //region Operation
         for (int i = 0; i < leng; i++)
         {
             if (i == 0)
@@ -34,8 +36,6 @@ public class Capital {
         }
 
         System.out.println(str);
-
-
-
+        //endregion;
     }
 }

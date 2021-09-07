@@ -15,8 +15,10 @@ public class Triangle {
         sc.close();
 
         // Operation
+        // First if statement is if triangle or not
         if (sideA + sideB > sideC && sideB + sideC > sideA && sideA + sideC > sideB)
         {
+            // If statement to identify type of triangle, only after have confirmed it is a triangle
             if (Double.compare(sideA, sideB) == 0 & Double.compare(sideA, sideC) == 0)
             {
                 System.out.println("This is an equilateral triangle");
