@@ -1,3 +1,4 @@
+package Week_1;
 public class Backwards {
     public static void main(String[] args) {
         String sentence = "pay no attention to that man behind the curtain";
