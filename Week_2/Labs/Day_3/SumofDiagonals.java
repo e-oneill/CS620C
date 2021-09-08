@@ -8,16 +8,14 @@ public class SumofDiagonals {
     int columns = 0;
     int diagonal1 = 0;
     int diagonal2 = 0;
-
-
     //endregion;
 
     //region Handle User Input and generate array
     System.out.println("Please enter the number of rows in the array");
     rows = sc.nextInt();
 
-    System.out.println("Please enter the number of columns in the array");
-    columns = sc.nextInt();
+    // System.out.println("Please enter the number of columns in the array");
+    columns = rows;
     int[][] arr = new int [rows][columns];
     for (int i = 0; i < rows; i++)
     {

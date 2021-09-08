@@ -16,8 +16,8 @@ public class LargestRow {
     System.out.println("Please enter the number of rows in the array");
     rows = sc.nextInt();
 
-    System.out.println("Please enter the number of columns in the array");
-    columns = sc.nextInt();
+    // System.out.println("Please enter the number of columns in the array");
+    columns = rows;
     int[][] arr = new int [rows][columns];
     for (int i = 0; i < rows; i++)
     {
