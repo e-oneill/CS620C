@@ -52,8 +52,8 @@ public class ArrayInput {
         // System.out.println("]");
         int min = arr[0];
         int minPos = 0;
-        int valueHolder = min;
-        int posHolder = minPos;
+        // int valueHolder = min;
+        // int posHolder = minPos;
 
         for (int i = 1; i < arr.length; i++)
         {
