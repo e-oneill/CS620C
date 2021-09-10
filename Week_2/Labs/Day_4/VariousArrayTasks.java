@@ -1,5 +1,6 @@
 package Week_2.Labs.Day_4;
 import java.util.*;
+// import java.math.*;
 public class VariousArrayTasks {
     public static void main(String[] args) {
         int[] arr = fillArray();
@@ -47,7 +48,9 @@ public class VariousArrayTasks {
         }
 
         avg = avg / arr.length;
-        
+        //Rounding to 3 decimal places - not needed for lab, but just doing so I can learn how to
+/*         BigDecimal rndavg = new BigDecimal(Double.toString(avg));
+        rndavg = rndavg.setScale(3, RoundingMode.HALF_UP); */
         return avg;
     }
 

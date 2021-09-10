@@ -6,7 +6,7 @@ public class Seasons {
       
       System.out.println("Insert integer of month");
       int month = sInt.nextInt();
-
+      sInt.close();
       System.out.println("The Season is " + printSeason(month));
     }
 

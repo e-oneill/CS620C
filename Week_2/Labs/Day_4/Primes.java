@@ -5,7 +5,7 @@ public class Primes {
         Scanner sInt = new Scanner(System.in);
 
         int num = sInt.nextInt();
-
+        sInt.close();
         Boolean isPrime = isPrime(num);
 
         if (isPrime)

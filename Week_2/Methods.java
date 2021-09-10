@@ -7,11 +7,13 @@ public class Methods {
         Scanner sString = new Scanner(System.in);
         System.out.println("Enter a number to check if it is even");
         num = sInt.nextInt();
+        sInt.close();
 
         checkEven(num);
         
         System.out.println("Enter a word to check if it's a palindrome");
         String input = sString.nextLine();
+        sString.close();
         isPalindrome(input);
         
     }

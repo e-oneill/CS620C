@@ -6,7 +6,7 @@ public class Stars {
         Scanner sInt = new Scanner(System.in);
 
         count = sInt.nextInt();
-
+        sInt.close();
         printStars(count);
     }
 

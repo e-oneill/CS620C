@@ -20,6 +20,7 @@ public class PrimePalindrome {
                 }
             i++;
         }
+        sInt.close();
     }
 
     public static boolean isPrime (int num)

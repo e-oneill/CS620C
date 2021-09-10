@@ -5,7 +5,7 @@ public class Palindromes {
         Scanner sString = new Scanner(System.in);
 
         String input = sString.nextLine();
-
+        sString.close();
         isPalindrome(input);
     }
 
