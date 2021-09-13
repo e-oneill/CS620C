@@ -34,7 +34,7 @@ public class ReverseStringInput
         int i = lastWordStart;
         
         String currWord = "";
-
+        
         // While loop that iterates from the last instance of space until it hits the end of the first word in the string. 
         while (i >= firstWordEnd)
         {

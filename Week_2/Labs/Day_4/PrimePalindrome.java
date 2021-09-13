@@ -3,6 +3,7 @@ import java.util.*;
 public class PrimePalindrome {
     public static void main(String[] args) {
         Scanner sInt = new Scanner(System.in);
+        // Scanner sc = new Scanner();
 
         int num = sInt.nextInt();
         boolean primePalindrome = false;
@@ -32,6 +33,7 @@ public class PrimePalindrome {
             {
                 isPrime = false;
             }
+            isPrime = (num%i == 0) ? false : true;
         }
 
         return isPrime;
