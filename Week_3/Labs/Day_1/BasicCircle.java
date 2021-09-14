@@ -1,5 +1,5 @@
-package Week_3;
-import java.lang.Math.*;
+package Week_3.Labs.Day_1;
+// import java.lang.Math.*;
 public class BasicCircle {
     //Attributes
     private int radius;

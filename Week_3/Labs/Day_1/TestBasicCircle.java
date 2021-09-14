@@ -1,4 +1,4 @@
-package Week_3;
+package Week_3.Labs.Day_1;
 import java.util.*;
 public class TestBasicCircle {
     public static void main(String[] args) {

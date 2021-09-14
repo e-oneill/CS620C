@@ -1,4 +1,4 @@
-package Week_3;
+package Week_3.Labs.Day_1;
 
 /**
  * This class describes an object of type Employee, including a name, jobtitle,
